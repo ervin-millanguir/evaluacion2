@@ -5,7 +5,6 @@ Happy pawss
 ## Integrantes
 - Camilo Alegria (ca.alegriav@duocuc.cl)
 - Ervin Millangir (er.millanguir@duocuc.cl)
-- Nombre Apellido (correo@duocuc.cl)
 
 ## Caso
 Veterinaria
