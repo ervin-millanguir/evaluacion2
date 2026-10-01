@@ -8,7 +8,6 @@ const datosIniciales = {
   correo: "",
   telefono: "",
   fechaNacimiento: "",
-  objetivo: "",
 };
 
 function SeccionDatosPersonales() {

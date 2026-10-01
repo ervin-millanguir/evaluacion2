@@ -55,43 +55,6 @@ function FormularioDatosPersonales({ datos, onChange, onSubmit }) {
         value={datos.fechaNacimiento}
         onChange={onChange}
       />
-
-      <fieldset>
-        <legend>Objetivo principal</legend>
-
-        <label>
-          <input
-            type="radio"
-            name="objetivo"
-            value="perder-peso"
-            checked={datos.objetivo === "perder-peso"}
-            onChange={onChange}
-          />
-          Perder peso
-        </label>
-<label>
-          <input
-            type="radio"
-            name="objetivo"
-            value="ganar-musculo"
-            checked={datos.objetivo === "ganar-musculo"}
-            onChange={onChange}
-          />
-          Ganar músculo
-        </label>
-
-        <label>
-          <input
-            type="radio"
-            name="objetivo"
-            value="resistencia"
-            checked={datos.objetivo === "resistencia"}
-            onChange={onChange}
-          />
-          Resistencia
-        </label>
-      </fieldset>
-
       <Boton type="submit">Continuar</Boton>
     </form>
   );
