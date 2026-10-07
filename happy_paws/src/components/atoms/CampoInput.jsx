@@ -1,10 +1,10 @@
 function CampoInput({
-  label,
-  name,
+  label = "",
+  name = "",
   type = "text",
-  placeholder,
-  value,
-  onChange,
+  placeholder = "",
+  value = "",
+  onChange = () => {},
 }) {
   return (
     <label>

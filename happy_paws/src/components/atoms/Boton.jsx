@@ -1,4 +1,4 @@
-function Boton({ children, type = "button" }) {
+function Boton({ children = "Enviar", type = "button" }) {
   return (
     <button type={type}>
       {children}

@@ -1,7 +1,7 @@
 import CampoInput from "../atoms/CampoInput";
 import Boton from "../atoms/Boton";
 
-function FormularioDatosPersonales({ datos, onChange, onSubmit }) {
+function FormularioDatosPersonales({ datos = {}, onChange = () => {}, onSubmit = (event) => event.preventDefault() }) {
   return (
     <form onSubmit={onSubmit}>
       <h1>Datos personales</h1>
